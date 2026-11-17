@@ -1,0 +1,20 @@
+# Generated firmware outputs (already tracked files remain tracked)
+/obj/
+*.o
+*.d
+*.elf
+*.hex
+*.map
+*.lst
+*.siz
+
+# Local IDE state
+/.mrs/
+/.metadata/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
